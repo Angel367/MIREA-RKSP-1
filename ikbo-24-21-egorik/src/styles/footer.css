@@ -1,8 +1,81 @@
-.footer-container {
+.footer {
     background-color: #2B2B2B;
-    position: relative;
     width: 100%;
-    height: 75px;
+    max-width: 100%;
+    position: absolute;
     bottom: 0;
-    border-top: 1px solid black;
+    text-align: center;
+}
+
+footer * {
+    background-color: #2B2B2B;
+    color: #FFF;
+
+}
+
+
+.footer__content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__description {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.footer__links,
+.footer__contact-info,
+.footer__social-links,
+.footer__legal-links,
+.footer__partners,
+.footer__resources {
+    flex-basis: 20%;
+    text-align: left;
+}
+
+.footer__links ul,
+.footer__contact-info,
+.footer__social-links ul,
+.footer__legal-links ul,
+.footer__partners ul,
+.footer__resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__links ul li,
+.footer__social-links ul li,
+.footer__legal-links ul li,
+.footer__partners ul li,
+.footer__resources ul li {
+    margin-bottom: 10px;
+}
+
+.footer__links a,
+.footer__social-links a,
+.footer__legal-links a,
+.footer__partners a,
+.footer__resources a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer__links a:hover,
+.footer__social-links a:hover,
+.footer__legal-links a:hover,
+.footer__partners a:hover,
+.footer__resources a:hover {
+    text-decoration: underline;
+}
+
+.footer__description p,
+.footer__contact-info p,
+.footer__social-links p,
+.footer__legal-links p,
+.footer__partners p,
+.footer__resources p {
+    margin: 0;
 }
