@@ -4,7 +4,7 @@
     padding: 20px;
 }
 
-.body-container h1 {
+.body-container h1, h2 {
     font-size: 36px;
     font-weight: bold;
     color: white;
@@ -16,4 +16,7 @@
     line-height: 1.6;
     color: ghostwhite;
     margin-bottom: 15px;
+}
+.CovidData p{
+    font-size: 14px;
 }

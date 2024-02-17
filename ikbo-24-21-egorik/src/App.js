@@ -1,21 +1,18 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './styles/main.css';
-import Header from "./components/Header";
-import Footer from "./components/Footer"
-import Body from "./components/Body";
+import MainPage from "./components/pages/MainPage";
+import LabsPage from "./components/pages/LabsPage";
 
 function App() {
-  return (
-      <div>
-        <Header />
-        <div>
-          {/* Здесь вы можете добавить контент для тела страницы */}
-          <p>Это тело вашей страницы</p>
-            <Body />
-        </div>
-          <Footer />
-      </div>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MainPage />} />
+                <Route path="/labs" element={<LabsPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
