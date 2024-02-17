@@ -1,0 +1,19 @@
+.body-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.body-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.body-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: ghostwhite;
+    margin-bottom: 15px;
+}

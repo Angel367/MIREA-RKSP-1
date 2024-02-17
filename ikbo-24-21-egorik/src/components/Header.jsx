@@ -1,4 +1,4 @@
-import './styles/header.css';
+import '../styles/header.css'; // Подключаем CSS файл
 
 function Header() {
     return (

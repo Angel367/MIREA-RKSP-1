@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles/main.css';
-import './styles/header.css'
-import Header from "./Header";
-import Footer from "./Footer"
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+import Body from "./components/Body";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <div>
           {/* Здесь вы можете добавить контент для тела страницы */}
           <p>Это тело вашей страницы</p>
+            <Body />
         </div>
           <Footer />
       </div>
